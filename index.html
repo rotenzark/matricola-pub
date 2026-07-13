@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Matricola Pub — il pub del Politecnico, dalle 18 a notte · Milano</title>
+<meta name="description" content="Matricola Pub in Viale Romagna 43, Città Studi (Milano). Il pub del Politecnico: aperitivo, cena, birre alla spina, cocktail e serate a tema. Aperti tutte le sere dalle 18." />
+<link rel="canonical" href="https://rotenzark.github.io/matricola-pub/" />
+<meta name="theme-color" content="#F4EEDF" />
+<meta property="og:type" content="business.business" />
+<meta property="og:site_name" content="Matricola Pub" />
+<meta property="og:title" content="Matricola Pub — dalle 18 a notte fonda · Città Studi" />
+<meta property="og:description" content="Il pub del Politecnico: aperitivo, cena, birre alla spina, cocktail e serate a tema. Aperti tutte le sere." />
+<meta property="og:image" content="https://rotenzark.github.io/matricola-pub/img/og-image.jpg" />
+<meta property="og:url" content="https://rotenzark.github.io/matricola-pub/" />
+<meta property="og:locale" content="it_IT" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Matricola Pub — Città Studi, Milano" />
+<meta name="twitter:description" content="Aperitivo, cena, birre e serate a tema, dalle 18 a notte fonda." />
+<meta name="twitter:image" content="https://rotenzark.github.io/matricola-pub/img/og-image.jpg" />
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png" />
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css?v=1" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org", "@type": "BarOrPub",
+  "name": "Matricola Pub",
+  "description": "Pub in Città Studi, Milano, di fronte al Politecnico: aperitivo, cena, birre alla spina, cocktail e serate a tema.",
+  "url": "https://rotenzark.github.io/matricola-pub/",
+  "telephone": "+390236559711", "priceRange": "€€", "servesCuisine": ["Pub food", "Burger"],
+  "image": "https://rotenzark.github.io/matricola-pub/img/bar.jpg",
+  "address": { "@type": "PostalAddress", "streetAddress": "Viale Romagna 43", "addressLocality": "Milano", "postalCode": "20133", "addressCountry": "IT" },
+  "geo": { "@type": "GeoCoordinates", "latitude": 45.4756804, "longitude": 9.2233681 },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.0", "reviewCount": "2313" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Sunday"], "opens": "18:00", "closes": "01:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "18:00", "closes": "02:00" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org", "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Dove siete?", "acceptedAnswer": { "@type": "Answer", "text": "In Viale Romagna 43, in Città Studi a Milano, vicino al Politecnico." } },
+    { "@type": "Question", "name": "Quando siete aperti?", "acceptedAnswer": { "@type": "Answer", "text": "Tutte le sere dalle 18: fino all'01, il venerdì e il sabato fino alle 02." } },
+    { "@type": "Question", "name": "Si mangia?", "acceptedAnswer": { "@type": "Answer", "text": "Sì: aperitivo, hamburger, tartare, insalatone e i nostri cocktail, oltre alle birre alla spina." } },
+    { "@type": "Question", "name": "Fate serate a tema?", "acceptedAnswer": { "@type": "Answer", "text": "Sì, organizziamo serate ed eventi a tema. Seguici per il calendario." } }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div id="intro" aria-hidden="true">
+  <p class="intro-txt" data-i18n="intro.txt">Matricola</p>
+  <button id="intro-skip" data-i18n="intro.skip">Entra →</button>
+</div>
+
+<header id="site-header">
+  <a href="#top" class="brand" aria-label="Matricola Pub — home">
+    <span class="brand-txt"><b>Matricola</b><i data-i18n="brand.sub">Pub · Politecnico · Città Studi</i></span>
+  </a>
+  <nav class="nav" aria-label="Navigazione">
+    <a href="#serata" data-i18n="nav.serata">La serata</a>
+    <a href="#cucina" data-i18n="nav.cucina">Birre & cucina</a>
+    <a href="#eventi" data-i18n="nav.eventi">Eventi</a>
+    <a href="#dove" data-i18n="nav.dove">Dove</a>
+  </nav>
+  <div class="head-actions">
+    <div class="lang" role="group" aria-label="Lingua"><button data-lang="it" class="active">IT</button><span>/</span><button data-lang="en">EN</button></div>
+    <a class="btn-book" href="tel:+390236559711"><span data-i18n="cta.call">Chiama</span></a>
+    <button id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="top">
+  <div class="hero-grid">
+    <div class="hero-copy reveal">
+      <span class="badge" data-i18n="hero.badge">Dal Politecnico · dal 18:00</span>
+      <h1><span data-i18n="hero.h1a">Matricola.</span><br><span class="amber" data-i18n="hero.h1b">Dalle 18 a notte fonda.</span></h1>
+      <p class="hero-sub" data-i18n="hero.sub">Il pub di Città Studi dove la serata comincia con un aperitivo e finisce che è già domani. Birre alla spina, hamburger, cocktail e serate a tema, tra gli arredi in legno scuro.</p>
+      <div class="hero-cta">
+        <a class="btn btn-solid" href="#serata" data-i18n="hero.cta1">La serata</a>
+        <a class="btn btn-line" href="tel:+390236559711" data-i18n="hero.cta2">Prenota un tavolo</a>
+      </div>
+      <p class="hero-live"><span id="live-dot"></span><span id="live-text" data-i18n="hero.live">Controllo orari…</span></p>
+    </div>
+    <figure class="hero-photo reveal"><img src="img/bar.jpg" alt="Il bancone e le spine di Matricola Pub" width="1400" height="788" fetchpriority="high" /></figure>
+  </div>
+</section>
+
+<!-- LA SERATA · timeline -->
+<section id="serata" class="section">
+  <div class="serata-head reveal">
+    <p class="kicker" data-i18n="serata.kicker">La serata</p>
+    <h2 data-i18n="serata.h2">Come va a finire.</h2>
+    <p class="lead" data-i18n="serata.lead">Un aperitivo veloce che diventa cena, poi birra, poi cocktail — «come spesso accade», scrivono. Ecco come scorre una sera al Matricola.</p>
+  </div>
+  <ol class="timeline">
+    <li class="reveal"><span class="t-time">18:00</span><div><h3 data-i18n="s.1t">Aperitivo</h3><p data-i18n="s.1p">Si comincia: birra fresca o cocktail e stuzzichini, appena finite le lezioni.</p></div></li>
+    <li class="reveal"><span class="t-time">20:00</span><div><h3 data-i18n="s.2t">A cena</h3><p data-i18n="s.2p">Hamburger, tartare, insalatoni: la cucina del pub, quella che riempie davvero.</p></div></li>
+    <li class="reveal"><span class="t-time">22:30</span><div><h3 data-i18n="s.3t">Birre & cocktail</h3><p data-i18n="s.3p">Il momento delle spine e dei «Matricola's cocktails». Legno scuro, chiacchiere, musica.</p></div></li>
+    <li class="reveal"><span class="t-time">01–02</span><div><h3 data-i18n="s.4t">Ultimo giro</h3><p data-i18n="s.4p">Si chiude all'una, il venerdì e il sabato alle due. Poi si vede.</p></div></li>
+  </ol>
+</section>
+
+<!-- BIRRE & CUCINA -->
+<section id="cucina" class="section">
+  <div class="cucina-head reveal">
+    <p class="kicker" data-i18n="cucina.kicker">Birre & cucina</p>
+    <h2 data-i18n="cucina.h2">Alla spina e dalla griglia.</h2>
+  </div>
+  <div class="cucina-grid">
+    <article class="cc reveal"><figure><img src="img/taps.jpg" alt="Le spine della birra" width="788" height="1050" loading="lazy" /></figure><h3 data-i18n="cc.1t">Birre alla spina</h3><p data-i18n="cc.1p">Guinness, trappiste e artigianali, sempre in rotazione. Più una carta in bottiglia.</p></article>
+    <article class="cc reveal"><figure><img src="img/burger.jpg" alt="Hamburger con patatine" width="591" height="1050" loading="lazy" /></figure><h3 data-i18n="cc.2t">Cucina</h3><p data-i18n="cc.2p">Hamburger, tartare, insalatoni e i piatti del giorno. Aperitivo che diventa cena.</p></article>
+    <article class="cc reveal"><figure><img src="img/beer.jpg" alt="Un cocktail" width="788" height="1050" loading="lazy" /></figure><h3 data-i18n="cc.3t">Cocktail</h3><p data-i18n="cc.3p">I «Matricola's cocktails» e i grandi classici, dall'aperitivo all'ultimo giro.</p></article>
+  </div>
+  <p class="cucina-note" data-i18n="cucina.note">Menù completo in pub e su matricolapub.it. Prezzi da confermare.</p>
+</section>
+
+<!-- EVENTI -->
+<section id="eventi" class="section">
+  <div class="eventi-grid">
+    <figure class="eventi-photo reveal"><img src="img/peaky.jpg" alt="Serata a tema Peaky Blinders al Matricola" width="788" height="1050" loading="lazy" /></figure>
+    <div class="eventi-copy reveal">
+      <p class="kicker" data-i18n="eventi.kicker">Eventi & serate a tema</p>
+      <h2 data-i18n="eventi.h2">Non è mai solo un giovedì.</h2>
+      <p data-i18n="eventi.p1">Il Matricola si trasforma: dalla serata «Garrison» a tema Peaky Blinders — anni '20, gioco d'azzardo (finto), magia e atmosfere d'epoca — agli appuntamenti fissi che animano Città Studi.</p>
+      <p data-i18n="eventi.p2">Tieni d'occhio il calendario: c'è quasi sempre un buon motivo per passare.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section">
+  <div class="gallery-head reveal"><p class="kicker" data-i18n="gallery.kicker">Gallery</p><h2 data-i18n="gallery.h2">Dentro il Matricola</h2></div>
+  <div class="masonry">
+    <figure class="g-item" data-full="img/interior.jpg"><img src="img/interior.jpg" alt="La sala con gli arredi in legno scuro" width="788" height="1050" loading="lazy" /></figure>
+    <figure class="g-item" data-full="img/bar.jpg"><img src="img/bar.jpg" alt="Il bancone" width="1400" height="788" loading="lazy" /></figure>
+    <figure class="g-item" data-full="img/tartare.jpg"><img src="img/tartare.jpg" alt="Tartare" width="591" height="1050" loading="lazy" /></figure>
+    <figure class="g-item" data-full="img/dehors.jpg"><img src="img/dehors.jpg" alt="I tavoli all'aperto" width="788" height="1050" loading="lazy" /></figure>
+    <figure class="g-item" data-full="img/facade.jpg"><img src="img/facade.jpg" alt="L'insegna Matricola" width="591" height="1050" loading="lazy" /></figure>
+    <figure class="g-item" data-full="img/burger.jpg"><img src="img/burger.jpg" alt="Hamburger" width="591" height="1050" loading="lazy" /></figure>
+  </div>
+</section>
+
+<!-- RECENSIONI -->
+<section id="recensioni" class="section">
+  <div class="rev-head reveal"><p class="kicker" data-i18n="rev.kicker">Le voci</p><h2 data-i18n="rev.h2">2.313 recensioni, 4,0★</h2></div>
+  <div class="rev-grid">
+    <blockquote class="rev reveal"><p>Locale carino, con un'atmosfera calda e accogliente grazie agli arredi in legno scuro: il classico pub dove fermarsi per un aperitivo in tranquillità. Lo staff è davvero molto gentile.</p><cite>Antonio Baldari · <span>★★★★★</span></cite></blockquote>
+    <blockquote class="rev reveal"><p>Sono stato una sera a fare un aperitivo che si è poi trasformato in cena, come spesso accade. Bella atmosfera e posto comodo a due passi dal Politecnico.</p><cite>Marco Quarta · <span>★★★★☆</span></cite></blockquote>
+    <blockquote class="rev reveal"><p>Il locale trasformato per l'evento a tema Peaky Blinders: ci siamo immersi negli anni '20 tra gioco d'azzardo (finto), magia e oggetti d'epoca. Serata davvero riuscita!</p><cite>Eleonora Croce · <span>★★★★★</span></cite></blockquote>
+  </div>
+</section>
+
+<!-- DOVE -->
+<section id="dove" class="section">
+  <div class="dove-grid">
+    <div class="dove-info reveal">
+      <p class="kicker" data-i18n="dove.kicker">Dove siamo</p>
+      <h2 data-i18n="dove.h2">In Città Studi,<br>di fronte al Politecnico.</h2>
+      <ul class="dove-list">
+        <li><b data-i18n="dove.addr">Indirizzo</b> Viale Romagna 43, 20133 Milano</li>
+        <li><b data-i18n="dove.hours">Orari</b> <span data-i18n="dove.hoursv">Tutte le sere dalle 18 · fino all'01 (ven–sab fino alle 02)</span></li>
+        <li><b data-i18n="dove.phone">Telefono</b> <a href="tel:+390236559711">02 3655 9711</a></li>
+      </ul>
+      <div class="dove-cta">
+        <a class="btn btn-solid" href="tel:+390236559711" data-i18n="dove.call">Chiama e prenota</a>
+        <a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&destination=Matricola+Pub+Viale+Romagna+43+Milano" target="_blank" rel="noopener" data-i18n="dove.route">Come arrivare</a>
+      </div>
+    </div>
+    <div class="dove-map reveal"><iframe title="Mappa Matricola Pub" src="https://www.google.com/maps?q=Matricola+Pub+Viale+Romagna+43+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section">
+  <div class="faq-head reveal"><p class="kicker">FAQ</p><h2 data-i18n="faq.h2">Domande frequenti</h2></div>
+  <div class="faq-list reveal">
+    <details><summary data-i18n="faq.q1">Dove siete?</summary><p data-i18n="faq.a1">In Viale Romagna 43, in Città Studi, vicino al Politecnico.</p></details>
+    <details><summary data-i18n="faq.q2">Quando siete aperti?</summary><p data-i18n="faq.a2">Tutte le sere dalle 18: fino all'01, il venerdì e il sabato fino alle 02.</p></details>
+    <details><summary data-i18n="faq.q3">Si mangia?</summary><p data-i18n="faq.a3">Sì: aperitivo, hamburger, tartare, insalatoni e i nostri cocktail, oltre alle birre alla spina.</p></details>
+    <details><summary data-i18n="faq.q4">Fate serate a tema?</summary><p data-i18n="faq.a4">Sì, organizziamo serate ed eventi a tema. Chiama per il calendario.</p></details>
+  </div>
+</section>
+
+<footer id="site-footer">
+  <div class="foot-main">
+    <div class="foot-brand"><b>Matricola Pub</b><i data-i18n="foot.sub">Città Studi · Milano</i></div>
+    <div class="foot-cols">
+      <div><b data-i18n="foot.where">Dove</b><span>Viale Romagna 43</span><span>20133 Milano</span></div>
+      <div><b data-i18n="foot.hours">Orari</b><span data-i18n="foot.hoursv">Tutte le sere dalle 18</span><span>fino all'01 / 02</span></div>
+      <div><b data-i18n="foot.contact">Contatti</b><a href="tel:+390236559711">02 3655 9711</a></div>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <p data-i18n="foot.disclaimer">Sito dimostrativo. Contenuti e foto raccolti da fonti pubbliche (Google Maps); orari, menù e prezzi sono indicativi, da confermare con il pub.</p>
+    <p class="foot-credit">Design <a href="https://bespokestud.io" target="_blank" rel="noopener">Bespoke Studio</a></p>
+  </div>
+</footer>
+
+<nav class="action-bar" aria-label="Azioni rapide">
+  <a href="tel:+390236559711"><span data-i18n="ab.call">Chiama</span></a>
+  <a href="https://www.google.com/maps/dir/?api=1&destination=Matricola+Pub+Viale+Romagna+43+Milano" target="_blank" rel="noopener"><span data-i18n="ab.route">Indicazioni</span></a>
+</nav>
+
+<div id="lightbox" aria-hidden="true"><button id="lb-close" aria-label="Chiudi">✕</button><img id="lb-img" src="" alt="" /></div>
+<script src="js/main.js?v=1"></script>
+</body>
+</html>
